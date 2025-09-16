@@ -5,7 +5,7 @@
   import cors from "cors";
 
   const app = express();
-  app.use(cors({ origin: "https://tara244766571.imweb.me" }));
+  app.use(cors());
   app.use(bodyParser.json());
 
   // 서비스 계정 키(JSON) → Render 환경변수에 저장한 값 불러오기
