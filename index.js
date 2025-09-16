@@ -21,7 +21,7 @@
 
   // 스프레드시트 ID (Render 환경변수에 저장)
   const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
-  const RANGE = "Sheet1!A2:D";
+  const RANGE = "data_sheet!A2:D";
 
   // 1) 데이터 가져오기
   app.get("/data", async (req, res) => {
